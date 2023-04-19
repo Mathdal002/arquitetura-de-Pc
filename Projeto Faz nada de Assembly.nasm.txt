@@ -1,0 +1,7 @@
+Projeto Faz nada de Assembly
+section .text
+global _start
+_start:
+mov eax,1;cod de saida 1
+xor ebx,ebx;nhm erro
+int 80h ;interr. do sistema para sair
